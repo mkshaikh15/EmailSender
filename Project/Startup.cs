@@ -31,6 +31,7 @@ namespace Project
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<MailSettings>(Configuration.GetSection("MailSettings"));
+
             services.AddTransient<IMailService, MailService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>

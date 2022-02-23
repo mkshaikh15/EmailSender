@@ -15,6 +15,9 @@
     <Reference Include="Emailer">
       <HintPath>..\..\Emailer\Emailer\bin\Debug\net5.0\Emailer.dll</HintPath>
     </Reference>
+    <Reference Include="Logging">
+      <HintPath>..\..\Emailer\Emailer\bin\Debug\net5.0\Logging.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
