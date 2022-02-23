@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Emailer.Model;
+using Emailer.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Project.Model;
-using Project.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +23,7 @@ namespace Project.Controllers
         {
             try
             {
-                await _mailService.SendEmailAsync(request);//for this specific task (Send) we wait until the SendEmailAsync(request) is finished, then we can continue with the rest of the method/task
+                await _mailService.SendEmailAsync(request);
                 return Ok();
             }
             catch (Exception ex)
