@@ -28,7 +28,7 @@ Required Libraries/Nuget Packages utilized in this project: .
     Pull this project or import it into Visual Studio (I used 2019)
     Make sure you have the Libraries that are utilized in this project
     The DLL is compiled to Emailer\bin\Debug\net5.0\
-    You should see a .DLL file called Emailer.dll (add a refence to this .dll file)
+    You should see a .DLL file named Emailer.dll (add a refence to this .dll file)
     Build the project
     Libraries/NuGet Packages: MailKit, Microsoft.Extensions.Options, and Emailer.DLL (See Emailer project README.md)
 
