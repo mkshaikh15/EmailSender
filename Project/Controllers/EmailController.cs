@@ -18,8 +18,8 @@ namespace Project.Controllers
         {
             _mailService = mailService;
         }
-        [HttpPost("Send")]
-        public async Task<IActionResult> Send([FromForm] MailRequest request)
+        [HttpPost]
+        public async Task<IActionResult> Post([FromForm] MailRequest request)
         {
             try
             {
